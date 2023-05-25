@@ -161,6 +161,7 @@ footer {
         z-index: 4;
     }
     .icona {
+  
         font-size: 30px;
         margin-bottom: 20px;
         width: 70px;
@@ -171,6 +172,8 @@ footer {
         -webkit-transition: all .5s;
         transition: all .5s;
         text-align: center;
+        overflow: hidden;
+       
     }
    
     .form-control{
@@ -784,7 +787,7 @@ body {
 }
 #imgs{
   width: 100%;
-  height: 100%;
+  
   object-fit: cover;
   vertical-align: middle;
 }
@@ -948,6 +951,71 @@ ul {
 }
 .lightbox_close span:last-child {
   transform: rotate(-45deg);
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
 }
 #my-img:hover {
   content: url('../images/phone2.bmp');
