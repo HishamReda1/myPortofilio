@@ -949,3 +949,10 @@ ul {
 .lightbox_close span:last-child {
   transform: rotate(-45deg);
 }
+#my-img:hover {
+  content: url('../images/phone2.bmp');
+}
+my-img{
+  background-blend-mode: multiply;
+
+}
