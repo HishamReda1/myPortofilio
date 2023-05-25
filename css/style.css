@@ -1024,3 +1024,6 @@ my-img{
   background-blend-mode: multiply;
 
 }
+.star:hover {
+  content: url('../images/smile.jpg');
+}
